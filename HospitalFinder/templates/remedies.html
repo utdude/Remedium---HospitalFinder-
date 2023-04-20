@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {%load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remedies</title>
+    <link rel="stylesheet" href="{% static '/css/home.css' %}">
+</head>
+
+<body style="background: linear-gradient(245.59deg, #4d9559 0%, #38703d 28.53%, #133917 75.52%);">
+
+    {% load static %}
+
+    <body style="">
+
+
+        <center>
+            <form action="REM" style="margin: 50px;" method="POST">{% csrf_token %}
+                <input type="text" id="search" placeholder="Disease.." name="symptom" reqiured>
+
+                <button type="submit">Submit</button>
+            </form>
+
+            <iframe src="{{x}}" title="{{x}}"></iframe>
+        </center>
+        <img src="" alt="">
+        <style>
+            body {
+                background: url({% static './1.jpg' %});
+                background-size: cover;
+            }
+
+            iframe {
+                width: 80%;
+                border: none;
+                border-radius: 20px;
+                height: 600px;
+                margin: 100px;
+                background-color: aliceblue;
+            }
+        </style>
+
+    </body>
+
+</html>
