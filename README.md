@@ -53,4 +53,4 @@ This is a POC(Proof of concept) kind-of project. The data used here comes up wit
 
 ## Feedback
 
-If you have any feedback, please reach out to us at 31200csaiml@gmail.com
+If you have any feedback, please reach out to us at mutkarshrai@gmail.com
